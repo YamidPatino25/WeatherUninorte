@@ -67,7 +67,7 @@ days.clear()
                 for (randUser in days) {
 
                     var user = User(
-                        randUser.date+" "+randUser.name,randUser.main,randUser.temp,randUser.humidity,"https://openweathermap.org/img/wn/"+randUser.picture+"@2x.png"
+                        randUser.date,randUser.main,randUser.temp+"°C",randUser.humidity+"% (Humidity)","https://openweathermap.org/img/wn/"+randUser.picture+"@2x.png"
                     )
                     users.add(user)
                 }

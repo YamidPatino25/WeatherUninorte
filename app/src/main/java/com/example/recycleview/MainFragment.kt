@@ -70,7 +70,7 @@ class MainFragment : Fragment() ,MyUserRecycleViewAdapter.onListInter{
                 for (randUser in userList) {
 
                     var user = User(
-                        randUser.name,randUser.main,randUser.temp,randUser.humidity,"https://openweathermap.org/img/wn/"+randUser.picture+"@2x.png"
+                        randUser.name,randUser.main,randUser.temp+"°C",randUser.humidity+"% (Humidity)","https://openweathermap.org/img/wn/"+randUser.picture+"@2x.png"
                     )
                     users.add(user)
                 }
