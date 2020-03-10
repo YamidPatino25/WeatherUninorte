@@ -56,6 +56,7 @@ days.clear()
         adapter=WeatherRecycleViewAdapter(users)
         mBinding.listF.layoutManager=LinearLayoutManager(context)
         mBinding.listF.adapter= adapter;
+        mBinding.user = user
 
         return mBinding.root
     }
